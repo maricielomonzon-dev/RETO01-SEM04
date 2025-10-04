@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 2rem;
+  color: hsl(228, 12%, 48%);
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  max-width: 350px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card-img {
+  width: 100%;
+  display: block;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.category {
+  color: #8c8c8c;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  line-height: 1.2;
+  color: black;
+  font-family: "Fraunces", serif;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.price-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.price {
+  color: #157347;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.old-price {
+  color: #aaa;
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(156, 15%, 94%);
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #125d39;
+}
